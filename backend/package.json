@@ -1,0 +1,17 @@
+{
+  "name": "express-mysql-example",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "react-native-safe-area-context": "^4.3.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

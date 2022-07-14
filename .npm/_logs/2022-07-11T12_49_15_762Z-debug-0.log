@@ -1,0 +1,191 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@8.13.2
+2 info using node@v16.16.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 6ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/root/.cache/typescript/4.7/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 21ms
+11 timing config:load:file:/root/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 2ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 35ms
+19 timing npm:load:configload Completed in 35ms
+20 timing npm:load:mkdirpcache Completed in 1ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm install @types/estree@ts4.7 @types/babel-generator@ts4.7 @types/babel-template@ts4.7 @types/babel-traverse@ts4.7 @types/uglify-js@ts4.7 @types/babel-types@ts4.7 @types/babylon@ts4.7
+23 verbose argv "install" "--ignore-scripts" "@types/estree@ts4.7" "@types/babel-generator@ts4.7" "@types/babel-template@ts4.7" "@types/babel-traverse@ts4.7" "@types/uglify-js@ts4.7" "@types/babel-types@ts4.7" "@types/babylon@ts4.7" "--save-dev" "--user-agent" "typesInstaller/4.7.3"
+24 timing npm:load:setTitle Completed in 3ms
+25 timing config:load:flatten Completed in 4ms
+26 timing npm:load:display Completed in 6ms
+27 verbose logfile logs-max:10 dir:/root/.npm/_logs
+28 verbose logfile /root/.npm/_logs/2022-07-11T12_49_15_762Z-debug-0.log
+29 timing npm:load:logFile Completed in 8ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 56ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile start cleaning logs, removing 1 files
+35 silly logfile done cleaning log files
+36 timing idealTree:init Completed in 62ms
+37 timing arborist:ctor Completed in 0ms
+38 http fetch GET 200 https://registry.npmjs.org/@types%2festree 163ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel-types 544ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2fuglify-js 546ms (cache revalidated)
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel-template 570ms (cache miss)
+42 http fetch GET 200 https://registry.npmjs.org/@types%2fbabylon 570ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel-traverse 972ms (cache miss)
+44 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel-generator 982ms (cache miss)
+45 timing idealTree:userRequests Completed in 1001ms
+46 silly idealTree buildDeps
+47 silly fetch manifest @types/estree@0.0.52
+48 silly fetch manifest @types/babel-generator@6.25.5
+49 silly fetch manifest @types/babel-template@6.25.2
+50 silly fetch manifest @types/babel-traverse@6.25.7
+51 silly fetch manifest @types/uglify-js@3.16.0
+52 silly fetch manifest @types/babel-types@7.0.11
+53 silly fetch manifest @types/babylon@6.16.6
+54 silly placeDep ROOT @types/babel-generator@6.25.5 OK for:  want: 6.25.5
+55 silly placeDep ROOT @types/babel-template@6.25.2 OK for:  want: 6.25.2
+56 silly placeDep ROOT @types/babel-traverse@6.25.7 OK for:  want: 6.25.7
+57 silly placeDep ROOT @types/babel-types@7.0.11 OK for:  want: 7.0.11
+58 silly placeDep ROOT @types/babylon@6.16.6 OK for:  want: 6.16.6
+59 silly placeDep ROOT @types/estree@0.0.52 OK for:  want: 0.0.52
+60 silly placeDep ROOT @types/uglify-js@3.16.0 OK for:  want: 3.16.0
+61 silly fetch manifest source-map@^0.6.1
+62 http fetch GET 200 https://registry.npmjs.org/source-map 7ms (cache hit)
+63 timing idealTree:#root Completed in 42ms
+64 timing idealTree:node_modules/@types/babel-generator Completed in 1ms
+65 timing idealTree:node_modules/@types/babel-template Completed in 0ms
+66 timing idealTree:node_modules/@types/babel-traverse Completed in 0ms
+67 timing idealTree:node_modules/@types/babel-types Completed in 0ms
+68 timing idealTree:node_modules/@types/babylon Completed in 0ms
+69 timing idealTree:node_modules/@types/estree Completed in 0ms
+70 silly placeDep ROOT source-map@0.6.1 OK for: @types/uglify-js@3.16.0 want: ^0.6.1
+71 timing idealTree:node_modules/@types/uglify-js Completed in 2ms
+72 timing idealTree:node_modules/source-map Completed in 0ms
+73 timing idealTree:buildDeps Completed in 47ms
+74 timing idealTree:fixDepFlags Completed in 1ms
+75 timing idealTree Completed in 1112ms
+76 timing reify:loadTrees Completed in 1114ms
+77 timing reify:diffTrees Completed in 4ms
+78 silly reify moves {}
+79 timing reify:retireShallow Completed in 1ms
+80 timing reify:createSparse Completed in 5ms
+81 timing reify:loadBundles Completed in 0ms
+82 silly audit bulk request {
+82 silly audit   '@types/accepts': [ '1.3.5' ],
+82 silly audit   '@types/body-parser': [ '1.19.2' ],
+82 silly audit   '@types/bytes': [ '3.1.1' ],
+82 silly audit   '@types/call-bind': [ '1.0.1' ],
+82 silly audit   '@types/connect': [ '3.4.35' ],
+82 silly audit   '@types/content-disposition': [ '0.5.5' ],
+82 silly audit   '@types/content-type': [ '1.1.5' ],
+82 silly audit   '@types/cookie': [ '0.5.1' ],
+82 silly audit   '@types/cookie-signature': [ '1.0.4' ],
+82 silly audit   '@types/debug': [ '4.1.7' ],
+82 silly audit   '@types/depd': [ '1.1.32' ],
+82 silly audit   '@types/destroy': [ '1.0.0' ],
+82 silly audit   '@types/ee-first': [ '1.1.0' ],
+82 silly audit   '@types/encodeurl': [ '1.0.0' ],
+82 silly audit   '@types/escape-html': [ '1.0.2' ],
+82 silly audit   '@types/etag': [ '1.8.1' ],
+82 silly audit   '@types/express-serve-static-core': [ '4.17.29' ],
+82 silly audit   '@types/finalhandler': [ '1.1.1' ],
+82 silly audit   '@types/forwarded': [ '0.1.0' ],
+82 silly audit   '@types/fresh': [ '0.5.0' ],
+82 silly audit   '@types/function-bind': [ '1.1.7' ],
+82 silly audit   '@types/get-intrinsic': [ '1.0.0' ],
+82 silly audit   '@types/has': [ '1.0.0' ],
+82 silly audit   '@types/has-symbols': [ '1.0.0' ],
+82 silly audit   '@types/http-errors': [ '1.8.2' ],
+82 silly audit   '@types/inherits': [ '0.0.30' ],
+82 silly audit   '@types/media-typer': [ '1.1.1' ],
+82 silly audit   '@types/merge-descriptors': [ '1.0.1' ],
+82 silly audit   '@types/methods': [ '1.1.1' ],
+82 silly audit   '@types/mime': [ '2.0.3', '1.3.2' ],
+82 silly audit   '@types/mime-db': [ '1.43.1' ],
+82 silly audit   '@types/mime-types': [ '2.1.1' ],
+82 silly audit   '@types/ms': [ '0.7.31' ],
+82 silly audit   '@types/negotiator': [ '0.6.1' ],
+82 silly audit   '@types/node': [ '18.0.3' ],
+82 silly audit   '@types/object-inspect': [ '1.8.1' ],
+82 silly audit   '@types/on-finished': [ '2.3.1' ],
+82 silly audit   '@types/parseurl': [ '1.3.1' ],
+82 silly audit   '@types/prop-types': [ '15.7.5' ],
+82 silly audit   '@types/proxy-addr': [ '2.0.0' ],
+82 silly audit   '@types/qs': [ '6.9.7' ],
+82 silly audit   '@types/range-parser': [ '1.2.4' ],
+82 silly audit   '@types/react': [ '18.0.15' ],
+82 silly audit   '@types/react-onclickoutside': [ '6.7.4' ],
+82 silly audit   '@types/safer-buffer': [ '2.1.0' ],
+82 silly audit   '@types/scheduler': [ '0.16.2' ],
+82 silly audit   '@types/send': [ '0.17.1' ],
+82 silly audit   '@types/serve-static': [ '1.13.10' ],
+82 silly audit   '@types/statuses': [ '2.0.0' ],
+82 silly audit   '@types/type-is': [ '1.6.3' ],
+82 silly audit   '@types/utils-merge': [ '0.0.28' ],
+82 silly audit   '@types/vary': [ '1.1.0' ],
+82 silly audit   csstype: [ '3.1.0' ],
+82 silly audit   '@types/babel-generator': [ '6.25.5' ],
+82 silly audit   '@types/babel-template': [ '6.25.2' ],
+82 silly audit   '@types/babel-traverse': [ '6.25.7' ],
+82 silly audit   '@types/babel-types': [ '7.0.11' ],
+82 silly audit   '@types/babylon': [ '6.16.6' ],
+82 silly audit   '@types/estree': [ '0.0.52' ],
+82 silly audit   '@types/uglify-js': [ '3.16.0' ],
+82 silly audit   'source-map': [ '0.6.1' ]
+82 silly audit }
+83 silly tarball no local data for @types/estree@https://registry.npmjs.org/@types/estree/-/estree-0.0.52.tgz. Extracting by manifest.
+84 silly tarball no local data for @types/babylon@https://registry.npmjs.org/@types/babylon/-/babylon-6.16.6.tgz. Extracting by manifest.
+85 silly tarball no local data for @types/babel-types@https://registry.npmjs.org/@types/babel-types/-/babel-types-7.0.11.tgz. Extracting by manifest.
+86 silly tarball no local data for @types/babel-traverse@https://registry.npmjs.org/@types/babel-traverse/-/babel-traverse-6.25.7.tgz. Extracting by manifest.
+87 silly tarball no local data for @types/babel-generator@https://registry.npmjs.org/@types/babel-generator/-/babel-generator-6.25.5.tgz. Extracting by manifest.
+88 silly tarball no local data for @types/babel-template@https://registry.npmjs.org/@types/babel-template/-/babel-template-6.25.2.tgz. Extracting by manifest.
+89 timing reifyNode:node_modules/@types/uglify-js Completed in 73ms
+90 timing reifyNode:node_modules/source-map Completed in 83ms
+91 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 200ms
+92 timing auditReport:getReport Completed in 205ms
+93 silly audit report {}
+94 timing auditReport:init Completed in 0ms
+95 timing reify:audit Completed in 206ms
+96 http fetch GET 200 https://registry.npmjs.org/@types/babylon/-/babylon-6.16.6.tgz 316ms (cache miss)
+97 timing reifyNode:node_modules/@types/babylon Completed in 339ms
+98 http fetch GET 200 https://registry.npmjs.org/@types/babel-template/-/babel-template-6.25.2.tgz 312ms (cache miss)
+99 timing reifyNode:node_modules/@types/babel-template Completed in 343ms
+100 http fetch GET 200 https://registry.npmjs.org/@types/babel-generator/-/babel-generator-6.25.5.tgz 315ms (cache miss)
+101 timing reifyNode:node_modules/@types/babel-generator Completed in 344ms
+102 http fetch GET 200 https://registry.npmjs.org/@types/estree/-/estree-0.0.52.tgz 326ms (cache miss)
+103 timing reifyNode:node_modules/@types/estree Completed in 346ms
+104 http fetch GET 200 https://registry.npmjs.org/@types/babel-traverse/-/babel-traverse-6.25.7.tgz 319ms (cache miss)
+105 timing reifyNode:node_modules/@types/babel-traverse Completed in 347ms
+106 http fetch GET 200 https://registry.npmjs.org/@types/babel-types/-/babel-types-7.0.11.tgz 322ms (cache miss)
+107 timing reifyNode:node_modules/@types/babel-types Completed in 348ms
+108 timing reify:unpack Completed in 349ms
+109 timing reify:unretire Completed in 1ms
+110 timing build:queue Completed in 1ms
+111 timing build:deps Completed in 1ms
+112 timing build Completed in 2ms
+113 timing reify:build Completed in 2ms
+114 timing reify:trash Completed in 0ms
+115 timing reify:save Completed in 32ms
+116 timing reify Completed in 1540ms
+117 silly ADD node_modules/source-map
+118 silly ADD node_modules/@types/uglify-js
+119 silly ADD node_modules/@types/estree
+120 silly ADD node_modules/@types/babylon
+121 silly ADD node_modules/@types/babel-types
+122 silly ADD node_modules/@types/babel-traverse
+123 silly ADD node_modules/@types/babel-template
+124 silly ADD node_modules/@types/babel-generator
+125 timing command:install Completed in 1547ms
+126 verbose exit 0
+127 timing npm Completed in 1673ms
+128 info ok

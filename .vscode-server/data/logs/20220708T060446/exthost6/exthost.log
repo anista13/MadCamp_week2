@@ -1,0 +1,19 @@
+[2022-07-08 11:42:46.193] [exthost] [info] Extension host with pid 22055 started
+[2022-07-08 11:42:46.197] [exthost] [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/bd208c65b201b934fe3ac87f6b89487c/vscode.lock'
+[2022-07-08 11:42:46.202] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/bd208c65b201b934fe3ac87f6b89487c/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-07-08 11:42:46.205] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/bd208c65b201b934fe3ac87f6b89487c/vscode.lock': The lock does not look stale, elapsed: 531 ms, giving up.
+[2022-07-08 11:42:46.210] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/bd208c65b201b934fe3ac87f6b89487c-1/vscode.lock': Lock acquired.
+[2022-07-08 11:42:48.528] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.vscode-mysql, startup: false, activationEvent: 'onView:mysql'
+[2022-07-08 11:42:48.615] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-07-08 11:42:48.682] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-08 11:42:48.686] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-08 11:42:48.691] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-08 11:42:48.706] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-07-08 11:42:49.565] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-08 11:42:49.640] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-08 11:42:50.517] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-08 11:42:50.535] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-08 11:42:50.540] [exthost] [info] Eager extensions activated
+[2022-07-08 12:11:25.804] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-08 12:11:25.804] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/bd208c65b201b934fe3ac87f6b89487c-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-07-08 12:11:25.831] [exthost] [info] Extension host with pid 22055 exiting with code 0

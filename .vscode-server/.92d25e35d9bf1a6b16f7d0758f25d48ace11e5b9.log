@@ -1,0 +1,30 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:36161 (IPv4)
+Extension host agent listening on 36161
+
+[12:54:05] Extension host agent started.
+[12:54:07] [127.0.0.1][85bc6df4][ManagementConnection] New connection established.
+[12:54:07] [127.0.0.1][c2014cc1][ExtensionHostConnection] New connection established.
+[12:54:07] [127.0.0.1][c2014cc1][ExtensionHostConnection] <11576> Launched Extension Host Process.
+[12:54:10] [127.0.0.1][c2014cc1][ExtensionHostConnection] <11576> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[12:54:10] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[12:54:18] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[12:54:18] Cancelling previous shutdown timeout
+[12:54:18] [127.0.0.1][f63f4f2a][ManagementConnection] New connection established.
+[12:54:18] [127.0.0.1][e0286ee0][ExtensionHostConnection] New connection established.
+[12:54:18] [127.0.0.1][e0286ee0][ExtensionHostConnection] <11738> Launched Extension Host Process.
+[12:54:21] [127.0.0.1][85bc6df4][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[12:54:21] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/root/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+New EH opened, aborting shutdown
+[12:59:18] New EH opened, aborting shutdown

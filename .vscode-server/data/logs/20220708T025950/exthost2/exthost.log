@@ -1,0 +1,20 @@
+[2022-07-08 03:00:29.666] [exthost] [info] Extension host with pid 10804 started
+[2022-07-08 03:00:29.685] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/bd208c65b201b934fe3ac87f6b89487c/vscode.lock': Lock acquired.
+[2022-07-08 03:00:30.277] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-07-08 03:00:30.352] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-08 03:00:30.356] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-08 03:00:30.367] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-08 03:00:32.196] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-08 03:00:32.270] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-08 03:00:33.172] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-08 03:00:33.193] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-08 03:00:33.197] [exthost] [info] Eager extensions activated
+[2022-07-08 03:48:39.796] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-07-08 03:49:09.072] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: '*'
+[2022-07-08 03:50:44.279] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-07-08 03:50:44.279] [exthost] [error] undefined
+[2022-07-08 03:51:12.004] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-07-08 03:51:12.004] [exthost] [error] undefined
+[2022-07-08 05:34:49.359] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2022-07-08 05:34:49.360] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/bd208c65b201b934fe3ac87f6b89487c/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-07-08 05:34:49.394] [exthost] [info] Extension host with pid 10804 exiting with code 0

@@ -1,0 +1,171 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@8.13.2
+2 info using node@v16.16.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 5ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/root/.cache/typescript/4.7/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 13ms
+11 timing config:load:file:/root/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 24ms
+19 timing npm:load:configload Completed in 24ms
+20 timing npm:load:mkdirpcache Completed in 1ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm install @types/cors@ts4.7 @types/express@ts4.7 @types/mysql@ts4.7 @types/qs@ts4.7 @types/object-assign@ts4.7 @types/sqlstring@ts4.7
+23 verbose argv "install" "--ignore-scripts" "@types/cors@ts4.7" "@types/express@ts4.7" "@types/mysql@ts4.7" "@types/qs@ts4.7" "@types/object-assign@ts4.7" "@types/sqlstring@ts4.7" "--save-dev" "--user-agent" "typesInstaller/4.7.3"
+24 timing npm:load:setTitle Completed in 1ms
+25 timing config:load:flatten Completed in 2ms
+26 timing npm:load:display Completed in 4ms
+27 verbose logfile logs-max:10 dir:/root/.npm/_logs
+28 verbose logfile /root/.npm/_logs/2022-07-11T12_54_28_008Z-debug-0.log
+29 timing npm:load:logFile Completed in 5ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 37ms
+33 timing arborist:ctor Completed in 6ms
+34 silly logfile start cleaning logs, removing 1 files
+35 silly logfile done cleaning log files
+36 timing idealTree:init Completed in 108ms
+37 timing arborist:ctor Completed in 0ms
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fqs 250ms (cache revalidated)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress 255ms (cache revalidated)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2fcors 258ms (cache revalidated)
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fmysql 592ms (cache revalidated)
+42 http fetch GET 200 https://registry.npmjs.org/@types%2fobject-assign 1061ms (cache revalidated)
+43 http fetch GET 200 https://registry.npmjs.org/@types%2fsqlstring 1082ms (cache revalidated)
+44 timing idealTree:userRequests Completed in 1105ms
+45 silly idealTree buildDeps
+46 silly fetch manifest @types/cors@2.8.12
+47 silly fetch manifest @types/express@4.17.13
+48 silly fetch manifest @types/mysql@2.15.21
+49 silly fetch manifest @types/qs@6.9.7
+50 silly fetch manifest @types/object-assign@4.0.30
+51 silly fetch manifest @types/sqlstring@2.3.0
+52 silly placeDep ROOT @types/cors@2.8.12 OK for:  want: 2.8.12
+53 silly placeDep ROOT @types/express@4.17.13 OK for:  want: 4.17.13
+54 silly placeDep ROOT @types/mysql@2.15.21 OK for:  want: 2.15.21
+55 silly placeDep ROOT @types/object-assign@4.0.30 OK for:  want: 4.0.30
+56 silly placeDep ROOT @types/qs@6.9.7 REPLACE for:  want: 6.9.7
+57 silly placeDep ROOT @types/sqlstring@2.3.0 OK for:  want: 2.3.0
+58 timing idealTree:#root Completed in 29ms
+59 timing idealTree:node_modules/@types/cors Completed in 0ms
+60 timing idealTree:node_modules/@types/express Completed in 0ms
+61 timing idealTree:node_modules/@types/mysql Completed in 0ms
+62 timing idealTree:node_modules/@types/object-assign Completed in 0ms
+63 timing idealTree:node_modules/@types/qs Completed in 0ms
+64 timing idealTree:node_modules/@types/sqlstring Completed in 0ms
+65 timing idealTree:buildDeps Completed in 32ms
+66 timing idealTree:fixDepFlags Completed in 1ms
+67 timing idealTree Completed in 1247ms
+68 timing reify:loadTrees Completed in 1249ms
+69 timing reify:diffTrees Completed in 5ms
+70 silly reify moves {}
+71 timing reify:retireShallow Completed in 2ms
+72 timing reify:createSparse Completed in 3ms
+73 timing reify:loadBundles Completed in 0ms
+74 silly audit bulk request {
+74 silly audit   '@types/accepts': [ '1.3.5' ],
+74 silly audit   '@types/babel-generator': [ '6.25.5' ],
+74 silly audit   '@types/babel-template': [ '6.25.2' ],
+74 silly audit   '@types/babel-traverse': [ '6.25.7' ],
+74 silly audit   '@types/babel-types': [ '7.0.11' ],
+74 silly audit   '@types/babylon': [ '6.16.6' ],
+74 silly audit   '@types/body-parser': [ '1.19.2' ],
+74 silly audit   '@types/bytes': [ '3.1.1' ],
+74 silly audit   '@types/call-bind': [ '1.0.1' ],
+74 silly audit   '@types/connect': [ '3.4.35' ],
+74 silly audit   '@types/content-disposition': [ '0.5.5' ],
+74 silly audit   '@types/content-type': [ '1.1.5' ],
+74 silly audit   '@types/cookie': [ '0.5.1' ],
+74 silly audit   '@types/cookie-signature': [ '1.0.4' ],
+74 silly audit   '@types/debug': [ '4.1.7' ],
+74 silly audit   '@types/depd': [ '1.1.32' ],
+74 silly audit   '@types/destroy': [ '1.0.0' ],
+74 silly audit   '@types/ee-first': [ '1.1.0' ],
+74 silly audit   '@types/encodeurl': [ '1.0.0' ],
+74 silly audit   '@types/escape-html': [ '1.0.2' ],
+74 silly audit   '@types/estree': [ '0.0.52' ],
+74 silly audit   '@types/etag': [ '1.8.1' ],
+74 silly audit   '@types/express-serve-static-core': [ '4.17.29' ],
+74 silly audit   '@types/finalhandler': [ '1.1.1' ],
+74 silly audit   '@types/forwarded': [ '0.1.0' ],
+74 silly audit   '@types/fresh': [ '0.5.0' ],
+74 silly audit   '@types/function-bind': [ '1.1.7' ],
+74 silly audit   '@types/get-intrinsic': [ '1.0.0' ],
+74 silly audit   '@types/has': [ '1.0.0' ],
+74 silly audit   '@types/has-symbols': [ '1.0.0' ],
+74 silly audit   '@types/http-errors': [ '1.8.2' ],
+74 silly audit   '@types/inherits': [ '0.0.30' ],
+74 silly audit   '@types/media-typer': [ '1.1.1' ],
+74 silly audit   '@types/merge-descriptors': [ '1.0.1' ],
+74 silly audit   '@types/methods': [ '1.1.1' ],
+74 silly audit   '@types/mime': [ '2.0.3', '1.3.2' ],
+74 silly audit   '@types/mime-db': [ '1.43.1' ],
+74 silly audit   '@types/mime-types': [ '2.1.1' ],
+74 silly audit   '@types/ms': [ '0.7.31' ],
+74 silly audit   '@types/negotiator': [ '0.6.1' ],
+74 silly audit   '@types/node': [ '18.0.3' ],
+74 silly audit   '@types/object-inspect': [ '1.8.1' ],
+74 silly audit   '@types/on-finished': [ '2.3.1' ],
+74 silly audit   '@types/parseurl': [ '1.3.1' ],
+74 silly audit   '@types/prop-types': [ '15.7.5' ],
+74 silly audit   '@types/proxy-addr': [ '2.0.0' ],
+74 silly audit   '@types/range-parser': [ '1.2.4' ],
+74 silly audit   '@types/react': [ '18.0.15' ],
+74 silly audit   '@types/react-onclickoutside': [ '6.7.4' ],
+74 silly audit   '@types/safer-buffer': [ '2.1.0' ],
+74 silly audit   '@types/scheduler': [ '0.16.2' ],
+74 silly audit   '@types/send': [ '0.17.1' ],
+74 silly audit   '@types/serve-static': [ '1.13.10' ],
+74 silly audit   '@types/statuses': [ '2.0.0' ],
+74 silly audit   '@types/type-is': [ '1.6.3' ],
+74 silly audit   '@types/uglify-js': [ '3.16.0' ],
+74 silly audit   '@types/utils-merge': [ '0.0.28' ],
+74 silly audit   '@types/vary': [ '1.1.0' ],
+74 silly audit   csstype: [ '3.1.0' ],
+74 silly audit   'source-map': [ '0.6.1' ],
+74 silly audit   'types-registry': [ '0.1.600' ],
+74 silly audit   '@types/cors': [ '2.8.12' ],
+74 silly audit   '@types/express': [ '4.17.13' ],
+74 silly audit   '@types/mysql': [ '2.15.21' ],
+74 silly audit   '@types/object-assign': [ '4.0.30' ],
+74 silly audit   '@types/qs': [ '6.9.7' ],
+74 silly audit   '@types/sqlstring': [ '2.3.0' ]
+74 silly audit }
+75 timing reifyNode:node_modules/@types/sqlstring Completed in 29ms
+76 timing reifyNode:node_modules/@types/object-assign Completed in 30ms
+77 timing reifyNode:node_modules/@types/cors Completed in 29ms
+78 timing reifyNode:node_modules/@types/mysql Completed in 30ms
+79 timing reifyNode:node_modules/@types/express Completed in 29ms
+80 timing reify:unpack Completed in 30ms
+81 timing reify:unretire Completed in 1ms
+82 timing build:queue Completed in 1ms
+83 timing build:deps Completed in 1ms
+84 timing build Completed in 1ms
+85 timing reify:build Completed in 1ms
+86 timing reify:trash Completed in 0ms
+87 timing reify:save Completed in 28ms
+88 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 204ms
+89 timing auditReport:getReport Completed in 208ms
+90 silly audit report {}
+91 timing auditReport:init Completed in 0ms
+92 timing reify:audit Completed in 210ms
+93 timing reify Completed in 1481ms
+94 silly ADD node_modules/@types/sqlstring
+95 silly ADD node_modules/@types/object-assign
+96 silly ADD node_modules/@types/mysql
+97 silly ADD node_modules/@types/express
+98 silly ADD node_modules/@types/cors
+99 timing command:install Completed in 1495ms
+100 verbose exit 0
+101 timing npm Completed in 1603ms
+102 info ok

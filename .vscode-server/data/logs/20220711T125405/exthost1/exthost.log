@@ -1,0 +1,12 @@
+[2022-07-11 12:54:09.138] [exthost] [info] Extension host with pid 11576 started
+[2022-07-11 12:54:09.277] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-11 12:54:09.286] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-11 12:54:09.294] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-11 12:54:09.317] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-07-11 12:54:09.662] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-11 12:54:09.751] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-11 12:54:09.900] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-11 12:54:09.925] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-11 12:54:09.931] [exthost] [info] Eager extensions activated
+[2022-07-11 12:54:10.866] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-11 12:54:10.879] [exthost] [info] Extension host with pid 11576 exiting with code 0

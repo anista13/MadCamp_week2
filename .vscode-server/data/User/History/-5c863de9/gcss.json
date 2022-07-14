@@ -1,0 +1,24 @@
+{
+    "C_Cpp.updateChannel": "Insiders",
+    "remote.SSH.remotePlatform": {
+        "20200028": "linux",
+        "20200588": "linux",
+        "systemProgramming": "linux",
+        "Aki": "linux",
+        "molip": "linux"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "git.terminalAuthentication": false,
+    "terminal.integrated.localEchoExcludePrograms": [
+        "vim",
+        "vi",
+        "nano",
+        "tmux",
+        "C:\\Users\\Jaemo\\.ssh\\config"
+    ],
+    "workbench.editorAssociations": {
+        "*.html": "default"
+    },
+    "workbench.colorTheme": "Material Theme Darker"
+}

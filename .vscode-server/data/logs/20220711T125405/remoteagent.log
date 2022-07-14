@@ -1,0 +1,16 @@
+[2022-07-11 12:54:05.668] [remoteagent] [info] Extension host agent started.
+[2022-07-11 12:54:07.412] [remoteagent] [info] [127.0.0.1][85bc6df4][ManagementConnection] New connection established.
+[2022-07-11 12:54:07.474] [remoteagent] [info] [127.0.0.1][c2014cc1][ExtensionHostConnection] New connection established.
+[2022-07-11 12:54:07.484] [remoteagent] [info] [127.0.0.1][c2014cc1][ExtensionHostConnection] <11576> Launched Extension Host Process.
+[2022-07-11 12:54:10.892] [remoteagent] [info] [127.0.0.1][c2014cc1][ExtensionHostConnection] <11576> Extension Host Process exited with code: 0, signal: null.
+[2022-07-11 12:54:10.893] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-11 12:54:18.575] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-07-11 12:54:18.576] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-07-11 12:54:18.746] [remoteagent] [info] [127.0.0.1][f63f4f2a][ManagementConnection] New connection established.
+[2022-07-11 12:54:18.788] [remoteagent] [info] [127.0.0.1][e0286ee0][ExtensionHostConnection] New connection established.
+[2022-07-11 12:54:18.798] [remoteagent] [info] [127.0.0.1][e0286ee0][ExtensionHostConnection] <11738> Launched Extension Host Process.
+[2022-07-11 12:54:21.996] [remoteagent] [info] [127.0.0.1][85bc6df4][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-11 12:54:21.999] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/root/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[2022-07-11 12:59:18.577] [remoteagent] [info] New EH opened, aborting shutdown

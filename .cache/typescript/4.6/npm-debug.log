@@ -1,0 +1,147 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--ignore-scripts',
+1 verbose cli   'types-registry@latest' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData types-registry@latest
+8 silly fetchNamedPackageData types-registry
+9 silly mapToRegistry name types-registry
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/types-registry
+13 verbose request uri https://registry.npmjs.org/types-registry
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 2:29:05 AM
+16 verbose request id 9c8cc20de4aa5057
+17 verbose etag W/"00f654b2bb3849dd8c87fdd1321a0a10"
+18 verbose lastModified Sun, 03 Jul 2022 00:14:17 GMT
+19 http request GET https://registry.npmjs.org/types-registry
+20 http 304 https://registry.npmjs.org/types-registry
+21 verbose headers { date: 'Sat, 09 Jul 2022 02:29:06 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'cf-ray': '727da1494ec89331-ICN',
+21 verbose headers   'cache-control': 'public, max-age=300',
+21 verbose headers   etag: '"00f654b2bb3849dd8c87fdd1321a0a10"',
+21 verbose headers   'last-modified': 'Sun, 03 Jul 2022 00:14:17 GMT',
+21 verbose headers   vary: 'Accept-Encoding',
+21 verbose headers   'cf-cache-status': 'REVALIDATED',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   'x-amz-replication-status': 'COMPLETED',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Sat, 09 Jul 2022 02:29:06 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'cf-ray': '727da1494ec89331-ICN',
+22 silly get     'cache-control': 'public, max-age=300',
+22 silly get     etag: '"00f654b2bb3849dd8c87fdd1321a0a10"',
+22 silly get     'last-modified': 'Sun, 03 Jul 2022 00:14:17 GMT',
+22 silly get     vary: 'Accept-Encoding',
+22 silly get     'cf-cache-status': 'REVALIDATED',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     'x-amz-replication-status': 'COMPLETED',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/types-registry from cache
+24 verbose get saving types-registry to /root/.npm/registry.npmjs.org/types-registry/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule types-registry@0.1.599 checking installable status
+38 silly cache add args [ 'types-registry@latest', null ]
+39 verbose cache add spec types-registry@latest
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'types-registry@latest',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'types-registry',
+40 silly cache add   rawSpec: 'latest',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed types-registry@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for types-registry
+43 info addNameTag [ 'types-registry', 'latest' ]
+44 silly mapToRegistry name types-registry
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/types-registry
+48 verbose addNameTag registry:https://registry.npmjs.org/types-registry not in flight; fetching
+49 verbose get https://registry.npmjs.org/types-registry not expired, no request
+50 silly addNameTag next cb for types-registry with tag latest
+51 silly addNamed types-registry@0.1.599
+52 verbose addNamed "0.1.599" is a plain semver version for types-registry
+53 silly cache afterAdd types-registry@0.1.599
+54 verbose afterAdd /root/.npm/types-registry/0.1.599/package/package.json not in flight; writing
+55 verbose afterAdd /root/.npm/types-registry/0.1.599/package/package.json written
+56 silly loadAllDepsIntoIdealTree Finishing
+57 silly idealTree:prePrune 4.6
+57 silly idealTree:prePrune └── types-registry@0.1.599
+58 silly loadIdealTree Finishing
+59 silly currentTree 4.6
+60 silly idealTree 4.6
+60 silly idealTree └── types-registry@0.1.599
+61 silly generateActionsToTake Starting
+62 silly install generateActionsToTake
+63 silly generateActionsToTake Finishing
+64 silly diffTrees action count 1
+65 silly diffTrees add types-registry@0.1.599
+66 silly decomposeActions action count 8
+67 silly decomposeActions fetch types-registry@0.1.599
+68 silly decomposeActions extract types-registry@0.1.599
+69 silly decomposeActions test types-registry@0.1.599
+70 silly decomposeActions preinstall types-registry@0.1.599
+71 silly decomposeActions build types-registry@0.1.599
+72 silly decomposeActions install types-registry@0.1.599
+73 silly decomposeActions postinstall types-registry@0.1.599
+74 silly decomposeActions finalize types-registry@0.1.599
+75 silly executeActions Starting
+76 silly install executeActions
+77 silly doSerial global-install 0
+78 silly doParallel fetch 1
+79 verbose lock using /root/.npm/_locks/staging-a90fec9447f61786.lock for /root/.cache/typescript/4.6/node_modules/.staging
+80 silly doParallel extract 1
+81 silly extract types-registry@0.1.599
+82 verbose unbuild node_modules/.staging/types-registry-23bad9c5
+83 silly gentlyRm /root/.cache/typescript/4.6/node_modules/.staging/types-registry-23bad9c5 is being purged from base /root/.cache/typescript/4.6
+84 verbose gentlyRm don't care about contents; nuking /root/.cache/typescript/4.6/node_modules/.staging/types-registry-23bad9c5
+85 verbose tar unpack /root/.npm/types-registry/0.1.599/package.tgz
+86 verbose tar unpacking to /root/.cache/typescript/4.6/node_modules/.staging/types-registry-23bad9c5
+87 silly gentlyRm /root/.cache/typescript/4.6/node_modules/.staging/types-registry-23bad9c5 is being purged
+88 verbose gentlyRm don't care about contents; nuking /root/.cache/typescript/4.6/node_modules/.staging/types-registry-23bad9c5
+89 silly gunzTarPerm modes [ '755', '644' ]
+90 silly gunzTarPerm extractEntry
+91 silly gunzTarPerm extractEntry
+92 silly gunzTarPerm extractEntry
+93 silly gunzTarPerm extractEntry
+94 verbose unlock done using /root/.npm/_locks/staging-a90fec9447f61786.lock for /root/.cache/typescript/4.6/node_modules/.staging
+95 silly rollbackFailedOptional Starting
+96 silly rollbackFailedOptional Finishing
+97 silly runTopLevelLifecycles Starting
+98 silly runTopLevelLifecycles Finishing
+99 silly install printInstalled
+100 verbose stack Error: ENOTDIR: not a directory, open '/root/.cache/typescript/4.6/node_modules/.staging/types-registry-23bad9c5/package.json'
+101 verbose cwd /root/.cache/typescript/4.6
+102 error Linux 4.15.0-188-generic
+103 error argv "/usr/bin/node" "/usr/bin/npm" "install" "--ignore-scripts" "types-registry@latest"
+104 error node v8.10.0
+105 error npm  v3.5.2
+106 error path /root/.cache/typescript/4.6/node_modules/.staging/types-registry-23bad9c5/package.json
+107 error code ENOTDIR
+108 error errno -20
+109 error syscall open
+110 error ENOTDIR: not a directory, open '/root/.cache/typescript/4.6/node_modules/.staging/types-registry-23bad9c5/package.json'
+111 error If you need help, you may report this error at:
+111 error     <https://github.com/npm/npm/issues>
+112 verbose exit [ -20, true ]

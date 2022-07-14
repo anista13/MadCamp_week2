@@ -1,0 +1,146 @@
+[2022-07-11 12:54:22.057] [exthost] [info] Extension host with pid 11738 started
+[2022-07-11 12:54:22.072] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/bd208c65b201b934fe3ac87f6b89487c/vscode.lock': Lock acquired.
+[2022-07-11 12:54:22.472] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-07-11 12:54:22.530] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-11 12:54:22.533] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-11 12:54:22.537] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-11 12:54:22.552] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-07-11 12:54:24.206] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-11 12:54:24.320] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-11 12:54:24.949] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-11 12:54:24.985] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-11 12:54:24.993] [exthost] [info] Eager extensions activated
+[2022-07-11 12:54:25.972] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.972] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.972] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.972] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.972] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.973] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.973] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.973] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.973] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.973] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.973] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.973] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.973] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.973] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.973] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.973] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.973] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.973] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.974] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.975] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.976] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.976] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.976] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.976] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.976] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.976] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.976] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:25.976] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/itProgerReact/App.js' is in submodule 'itProgerReact'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-07-11 12:54:26.278] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3614
+[2022-07-11 12:54:28.394] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3633
+[2022-07-11 12:54:34.859] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3676
+[2022-07-11 12:54:40.672] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3676
+[2022-07-11 12:54:51.862] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3676
+[2022-07-11 12:54:57.600] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3676
+[2022-07-11 12:55:01.663] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-07-11 12:55:01.677] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-07-11 12:55:01.704] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-07-11 12:55:01.813] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-07-11 12:55:03.419] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3677
+[2022-07-11 12:55:09.147] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3677
+[2022-07-11 12:55:14.940] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3677
+[2022-07-11 12:55:21.206] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3677
+[2022-07-11 12:55:27.047] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3677
+[2022-07-11 12:55:32.913] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3680
+[2022-07-11 12:55:42.435] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3680
+[2022-07-11 12:55:49.458] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3682
+[2022-07-11 12:55:55.267] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3683
+[2022-07-11 12:56:01.944] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3683
+[2022-07-11 12:56:07.706] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3686
+[2022-07-11 12:56:13.473] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3686
+[2022-07-11 12:56:19.177] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3687
+[2022-07-11 12:56:24.958] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3687
+[2022-07-11 12:56:30.730] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3687
+[2022-07-11 12:56:36.578] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3687
+[2022-07-11 12:56:42.363] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3688
+[2022-07-11 12:56:48.107] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3689
+[2022-07-11 12:56:53.967] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3689
+[2022-07-11 12:57:01.483] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3689
+[2022-07-11 12:57:07.259] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3689
+[2022-07-11 12:57:13.015] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3689
+[2022-07-11 12:57:18.814] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3689
+[2022-07-11 12:57:24.592] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3689
+[2022-07-11 12:57:30.377] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3689
+[2022-07-11 12:57:36.191] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3689
+[2022-07-11 12:57:42.066] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4245
+[2022-07-11 12:57:48.000] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 9314

@@ -1,0 +1,6 @@
+POST http://192.249.18.167:443/welcome
+content-type: application/json
+
+{
+    "name": "mobile"
+}

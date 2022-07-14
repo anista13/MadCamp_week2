@@ -1,0 +1,18 @@
+[2022-07-08 02:14:58.998] [remoteagent] [info] Extension host agent started.
+[2022-07-08 02:14:59.588] [remoteagent] [info] [127.0.0.1][2fd45db4][ManagementConnection] New connection established.
+[2022-07-08 02:14:59.591] [remoteagent] [info] [127.0.0.1][c729fa86][ExtensionHostConnection] New connection established.
+[2022-07-08 02:14:59.599] [remoteagent] [info] [127.0.0.1][c729fa86][ExtensionHostConnection] <2615> Launched Extension Host Process.
+[2022-07-08 02:35:46.207] [remoteagent] [info] [127.0.0.1][2fd45db4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-07-08 02:35:46.259] [remoteagent] [info] [127.0.0.1][c729fa86][ExtensionHostConnection] <2615> Extension Host Process exited with code: 0, signal: null.
+[2022-07-08 02:35:46.259] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-08 02:36:35.847] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-07-08 02:36:35.847] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-07-08 02:36:36.135] [remoteagent] [info] [127.0.0.1][7e44de9f][ManagementConnection] New connection established.
+[2022-07-08 02:36:36.137] [remoteagent] [info] [127.0.0.1][c211fe9b][ExtensionHostConnection] New connection established.
+[2022-07-08 02:36:36.145] [remoteagent] [info] [127.0.0.1][c211fe9b][ExtensionHostConnection] <3245> Launched Extension Host Process.
+[2022-07-08 02:39:01.124] [remoteagent] [error] ["Error: Could not find pty on pty host","    at m._throwIfNoPty (/root/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:20:5333)","    at m.updateTitle (/root/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:20:1673)","    at Object.call (/root/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:13:8361)","    at g.onPromise (/root/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:4879)","    at g.onRawMessage (/root/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:4267)","    at /root/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:3555","    at D.invoke (/root/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:145)","    at N.deliver (/root/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:2271)","    at h.fire (/root/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:1849)","    at process.p (/root/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:6:34973)","    at process.emit (node:events:390:28)","    at emit (node:internal/child_process:917:12)","    at processTicksAndRejections (node:internal/process/task_queues:84:21)"]
+[2022-07-08 02:41:35.847] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-07-08 02:53:17.590] [remoteagent] [info] [127.0.0.1][7e44de9f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-07-08 02:53:17.763] [remoteagent] [info] [127.0.0.1][c211fe9b][ExtensionHostConnection] <3245> Extension Host Process exited with code: 0, signal: null.
+[2022-07-08 02:53:17.763] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-08 02:58:17.764] [remoteagent] [info] Last EH closed, shutting down

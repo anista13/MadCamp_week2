@@ -1,0 +1,7 @@
+{
+    "host" : "localhost",
+    "user" : "root",
+    "password" : "wjdwoah4760",
+    "port" : "3306",
+    "database" : "movieTest"
+}

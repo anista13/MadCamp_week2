@@ -1,0 +1,903 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@8.13.2
+2 info using node@v16.16.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 12ms
+6 timing config:load:builtin Completed in 14ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/root/.cache/typescript/4.7/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 15ms
+11 timing config:load:file:/root/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 3ms
+17 timing config:load:setEnvs Completed in 3ms
+18 timing config:load Completed in 43ms
+19 timing npm:load:configload Completed in 43ms
+20 timing npm:load:mkdirpcache Completed in 8ms
+21 timing npm:load:mkdirplogs Completed in 2ms
+22 verbose title npm install @types/connect@ts4.7
+23 verbose argv "install" "--ignore-scripts" "@types/connect@ts4.7" "--save-dev" "--user-agent" "typesInstaller/4.7.3"
+24 timing npm:load:setTitle Completed in 5ms
+25 timing config:load:flatten Completed in 4ms
+26 timing npm:load:display Completed in 5ms
+27 verbose logfile logs-max:10 dir:/root/.npm/_logs
+28 verbose logfile /root/.npm/_logs/2022-07-11T12_50_24_589Z-debug-0.log
+29 timing npm:load:logFile Completed in 12ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 78ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile start cleaning logs, removing 1 files
+35 silly logfile done cleaning log files
+36 timing idealTree:init Completed in 169ms
+37 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fconnect 384ms (cache hit)
+39 timing idealTree:userRequests Completed in 405ms
+40 silly idealTree buildDeps
+41 silly fetch manifest @types/connect@3.4.35
+42 silly placeDep ROOT @types/connect@3.4.35 REPLACE for:  want: 3.4.35
+43 timing idealTree:#root Completed in 21ms
+44 timing idealTree:node_modules/@types/connect Completed in 0ms
+45 timing idealTree:buildDeps Completed in 23ms
+46 timing idealTree:fixDepFlags Completed in 1ms
+47 timing idealTree Completed in 599ms
+48 timing reify:loadTrees Completed in 600ms
+49 timing reify:diffTrees Completed in 10ms
+50 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/ast-types' ]
+51 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/csstype' ]
+52 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/recast' ]
+53 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/xmlbuilder' ]
+54 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@babel/parser' ]
+55 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@babel/types' ]
+56 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/arr-diff' ]
+57 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/argparse' ]
+58 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/array-find-index' ]
+59 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/arr-union' ]
+60 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/asap' ]
+61 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/async' ]
+62 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/atob' ]
+63 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/array-unique' ]
+64 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/babel-core' ]
+65 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/babel__code-frame' ]
+66 silly reify mark retired [
+66 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/babel-plugin-syntax-jsx'
+66 silly reify ]
+67 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/babel__generator' ]
+68 silly reify mark retired [
+68 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/babel__helper-plugin-utils'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/babel__plugin-transform-runtime'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/babel__helper-validator-identifier'
+70 silly reify ]
+71 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/babel__preset-env' ]
+72 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/babel__register' ]
+73 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/babel__traverse' ]
+74 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/babel__template' ]
+75 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/balanced-match' ]
+76 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/bl' ]
+77 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/blueimp-md5' ]
+78 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/boolbase' ]
+79 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/brace-expansion' ]
+80 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/braces' ]
+81 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/bser' ]
+82 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/buffer-from' ]
+83 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/cacache' ]
+84 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/caniuse-lite' ]
+85 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/chownr' ]
+86 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/cli-spinners' ]
+87 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/clone' ]
+88 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/clone-deep' ]
+89 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/color-convert' ]
+90 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/color-name' ]
+91 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/color-string' ]
+92 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/combined-stream' ]
+93 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/command-exists' ]
+94 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/commondir' ]
+95 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/component-emitter' ]
+96 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/compressible' ]
+97 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/compression' ]
+98 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/concat-map' ]
+99 silly reify mark retired [
+99 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/convert-source-map'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/create-react-class'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/css-to-react-native'
+101 silly reify ]
+102 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/css-tree' ]
+103 silly reify mark retired [
+103 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/decode-uri-component'
+103 silly reify ]
+104 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/deep-extend' ]
+105 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/default-gateway' ]
+106 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/defaults' ]
+107 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/define-properties' ]
+108 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/denodeify' ]
+109 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/dir-glob' ]
+110 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/end-of-stream' ]
+111 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/envinfo' ]
+112 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/errorhandler' ]
+113 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/esprima' ]
+114 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/esutils' ]
+115 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/fb-watchman' ]
+116 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/fill-range' ]
+117 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/fbjs' ]
+118 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/follow-redirects' ]
+119 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/find-cache-dir' ]
+120 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/fs-extra' ]
+121 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/fontfaceobserver' ]
+122 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/get-intrinsic' ]
+123 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/gensync' ]
+124 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/get-value' ]
+125 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/glob-parent' ]
+126 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/graceful-fs' ]
+127 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/hosted-git-info' ]
+128 silly reify mark retired [
+128 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/hyphenate-style-name'
+128 silly reify ]
+129 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/imurmurhash' ]
+130 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/ini' ]
+131 silly reify mark retired [
+131 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/inline-style-prefixer'
+131 silly reify ]
+132 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/ip' ]
+133 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/is-buffer' ]
+134 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/is-core-module' ]
+135 silly reify mark retired [
+135 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/is-data-descriptor'
+135 silly reify ]
+136 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/is-glob' ]
+137 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/is-number' ]
+138 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/is-valid-path' ]
+139 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/is-windows' ]
+140 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/isarray' ]
+141 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/isexe' ]
+142 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/js-yaml' ]
+143 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/jscodeshift' ]
+144 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/jsesc' ]
+145 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/klaw' ]
+146 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/lodash' ]
+147 silly reify mark retired [
+147 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/json-parse-better-errors'
+147 silly reify ]
+148 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/lodash.debounce' ]
+149 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/jsonfile' ]
+150 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/kind-of' ]
+151 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/lodash.throttle' ]
+152 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/md5' ]
+153 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/lodash.isequal' ]
+154 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/memory-cache' ]
+155 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/merge-stream' ]
+156 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/merge2' ]
+157 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/metro' ]
+158 silly reify mark retired [
+158 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/metro-babel-transformer'
+158 silly reify ]
+159 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/metro-cache' ]
+160 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/metro-config' ]
+161 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/metro-core' ]
+162 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/metro-resolver' ]
+163 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/metro-source-map' ]
+164 silly reify mark retired [
+164 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/metro-transform-worker'
+164 silly reify ]
+165 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/micromatch' ]
+166 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/minimist' ]
+167 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/minipass' ]
+168 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/minizlib' ]
+169 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/mkdirp' ]
+170 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/mz' ]
+171 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/node' ]
+172 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/node-forge' ]
+173 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/picomatch' ]
+174 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/react' ]
+175 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/react-native' ]
+176 silly reify mark retired [
+176 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/react-lifecycles-compat'
+176 silly reify ]
+177 silly reify mark retired [
+177 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/react-native-vector-icons'
+177 silly reify ]
+178 silly reify mark retired [
+178 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/react-transition-group'
+178 silly reify ]
+179 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/strict-uri-encode' ]
+180 silly reify mark retired [
+180 silly reify   '/root/.cache/typescript/4.7/node_modules/esprima',
+180 silly reify   '/root/.cache/typescript/4.7/node_modules/.bin/esparse',
+180 silly reify   '/root/.cache/typescript/4.7/node_modules/.bin/esvalidate'
+180 silly reify ]
+181 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/safe-buffer' ]
+182 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/to-fast-properties' ]
+183 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/tslib' ]
+184 silly reify mark retired [
+184 silly reify   '/root/.cache/typescript/4.7/node_modules/@babel/helper-validator-identifier'
+184 silly reify ]
+185 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/babel__core' ]
+186 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/express' ]
+187 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/glob' ]
+188 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/jsdom' ]
+189 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/minimatch' ]
+190 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/mv' ]
+191 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/ncp' ]
+192 silly reify mark retired [
+192 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/nested-error-stacks'
+192 silly reify ]
+193 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/nice-try' ]
+194 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/node-dir' ]
+195 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/node-int64' ]
+196 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/normalize-path' ]
+197 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/npm-package-arg' ]
+198 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/object-keys' ]
+199 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/object.pick' ]
+200 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/on-headers' ]
+201 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/once' ]
+202 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/os-homedir' ]
+203 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/os-tmpdir' ]
+204 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/osenv' ]
+205 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/parse-json' ]
+206 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/parse5' ]
+207 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/pascalcase' ]
+208 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/path-browserify' ]
+209 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/path-is-absolute' ]
+210 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/path-parse' ]
+211 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/pify' ]
+212 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/plist' ]
+213 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/pngjs' ]
+214 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/progress' ]
+215 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/promise-inflight' ]
+216 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/prompts' ]
+217 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/pump' ]
+218 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/qrcode-terminal' ]
+219 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/querystringify' ]
+220 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/rc' ]
+221 silly reify mark retired [
+221 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/react-native__assets'
+221 silly reify ]
+222 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/readable-stream' ]
+223 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/regenerate' ]
+224 silly reify mark retired [
+224 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/regenerator-runtime'
+224 silly reify ]
+225 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/regex-not' ]
+226 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/repeat-element' ]
+227 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/repeat-string' ]
+228 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/require-directory' ]
+229 silly reify mark retired [
+229 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/require-from-string'
+229 silly reify ]
+230 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/requires-port' ]
+231 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/resolve' ]
+232 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/rimraf' ]
+233 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/run-parallel' ]
+234 silly reify mark retired [
+234 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/safe-json-stringify'
+234 silly reify ]
+235 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/safe-regex' ]
+236 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/sax' ]
+237 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/set-value' ]
+238 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/setimmediate' ]
+239 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/shebang-command' ]
+240 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/shell-quote' ]
+241 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/signal-exit' ]
+242 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/simple-swizzle' ]
+243 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/slice-ansi' ]
+244 silly reify mark retired [
+244 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/source-map-support'
+244 silly reify ]
+245 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/split' ]
+246 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/sprintf-js' ]
+247 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/ssri' ]
+248 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/stream-buffers' ]
+249 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/supports-color' ]
+250 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/tar' ]
+251 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/temp' ]
+252 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/text-table' ]
+253 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/through' ]
+254 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/through2' ]
+255 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/tmp' ]
+256 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/tmpl' ]
+257 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/to-regex' ]
+258 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/to-regex-range' ]
+259 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/tough-cookie' ]
+260 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/traverse' ]
+261 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/ua-parser-js' ]
+262 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/uglify-es' ]
+263 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/universalify' ]
+264 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/urix' ]
+265 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/url-join' ]
+266 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/url-parse' ]
+267 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/util-deprecate' ]
+268 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/valid-url' ]
+269 silly reify mark retired [
+269 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/validate-npm-package-name'
+269 silly reify ]
+270 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/warning' ]
+271 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/wcwidth' ]
+272 silly reify mark retired [
+272 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/webidl-conversions'
+272 silly reify ]
+273 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/whatwg-url' ]
+274 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/which' ]
+275 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/wrap-ansi' ]
+276 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/write-file-atomic' ]
+277 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/ws' ]
+278 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/xml2js' ]
+279 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/xmldoc' ]
+280 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/xtend' ]
+281 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/yallist' ]
+282 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/yargs' ]
+283 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/yargs-parser' ]
+284 silly reify mark retired [ '/root/.cache/typescript/4.7/node_modules/@types/semver' ]
+285 silly reify moves {
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/ast-types': '/root/.cache/typescript/4.7/node_modules/.ast-types-7VCffhoN',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/csstype': '/root/.cache/typescript/4.7/node_modules/.csstype-CA9uUnqL',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/recast': '/root/.cache/typescript/4.7/node_modules/.recast-5ciOH913',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/xmlbuilder': '/root/.cache/typescript/4.7/node_modules/.xmlbuilder-CD1jV7la',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@babel/parser': '/root/.cache/typescript/4.7/node_modules/@babel/.parser-v1zW22mk',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@babel/types': '/root/.cache/typescript/4.7/node_modules/@babel/.types-mH2Ka9Ao',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/arr-diff': '/root/.cache/typescript/4.7/node_modules/@types/.arr-diff-DxcxCSgb',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/argparse': '/root/.cache/typescript/4.7/node_modules/@types/.argparse-13lxgYkt',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/array-find-index': '/root/.cache/typescript/4.7/node_modules/@types/.array-find-index-DEmV8qo9',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/arr-union': '/root/.cache/typescript/4.7/node_modules/@types/.arr-union-rAh4BeYM',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/asap': '/root/.cache/typescript/4.7/node_modules/@types/.asap-Qry3ZOn2',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/async': '/root/.cache/typescript/4.7/node_modules/@types/.async-it8v05NO',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/atob': '/root/.cache/typescript/4.7/node_modules/@types/.atob-uhgIGFac',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/array-unique': '/root/.cache/typescript/4.7/node_modules/@types/.array-unique-5LJR9t0T',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/babel-core': '/root/.cache/typescript/4.7/node_modules/@types/.babel-core-kiLeUE4n',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/babel__code-frame': '/root/.cache/typescript/4.7/node_modules/@types/.babel__code-frame-kKKrXxTc',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/babel-plugin-syntax-jsx': '/root/.cache/typescript/4.7/node_modules/@types/.babel-plugin-syntax-jsx-VnDsieKF',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/babel__generator': '/root/.cache/typescript/4.7/node_modules/@types/.babel__generator-2saJa11Z',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/babel__helper-plugin-utils': '/root/.cache/typescript/4.7/node_modules/@types/.babel__helper-plugin-utils-Rbyugzyx',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/babel__plugin-transform-runtime': '/root/.cache/typescript/4.7/node_modules/@types/.babel__plugin-transform-runtime-IcyN3Mu0',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/babel__helper-validator-identifier': '/root/.cache/typescript/4.7/node_modules/@types/.babel__helper-validator-identifier-5IubQMWo',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/babel__preset-env': '/root/.cache/typescript/4.7/node_modules/@types/.babel__preset-env-4aA7XNaB',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/babel__register': '/root/.cache/typescript/4.7/node_modules/@types/.babel__register-78EMNNUh',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/babel__traverse': '/root/.cache/typescript/4.7/node_modules/@types/.babel__traverse-RRCO1Io7',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/babel__template': '/root/.cache/typescript/4.7/node_modules/@types/.babel__template-U4jxzyo9',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/balanced-match': '/root/.cache/typescript/4.7/node_modules/@types/.balanced-match-rb6FwN1l',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/bl': '/root/.cache/typescript/4.7/node_modules/@types/.bl-YGG3bEMf',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/blueimp-md5': '/root/.cache/typescript/4.7/node_modules/@types/.blueimp-md5-JVYZlYBg',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/boolbase': '/root/.cache/typescript/4.7/node_modules/@types/.boolbase-cyyPOLlr',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/brace-expansion': '/root/.cache/typescript/4.7/node_modules/@types/.brace-expansion-JEsbxmUc',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/braces': '/root/.cache/typescript/4.7/node_modules/@types/.braces-AsAPmA3X',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/bser': '/root/.cache/typescript/4.7/node_modules/@types/.bser-O1cEl4x3',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/buffer-from': '/root/.cache/typescript/4.7/node_modules/@types/.buffer-from-tDCx5bnZ',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/cacache': '/root/.cache/typescript/4.7/node_modules/@types/.cacache-0z8R2OwW',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/caniuse-lite': '/root/.cache/typescript/4.7/node_modules/@types/.caniuse-lite-YBikXwvK',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/chownr': '/root/.cache/typescript/4.7/node_modules/@types/.chownr-dkz8ikJZ',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/cli-spinners': '/root/.cache/typescript/4.7/node_modules/@types/.cli-spinners-cU43apQm',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/clone': '/root/.cache/typescript/4.7/node_modules/@types/.clone-N3wkPq1I',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/clone-deep': '/root/.cache/typescript/4.7/node_modules/@types/.clone-deep-ymU7PGR9',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/color-convert': '/root/.cache/typescript/4.7/node_modules/@types/.color-convert-Yo0QNEM8',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/color-name': '/root/.cache/typescript/4.7/node_modules/@types/.color-name-tWkQm5V4',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/color-string': '/root/.cache/typescript/4.7/node_modules/@types/.color-string-4CfZRt4U',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/combined-stream': '/root/.cache/typescript/4.7/node_modules/@types/.combined-stream-uHEdYbbZ',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/command-exists': '/root/.cache/typescript/4.7/node_modules/@types/.command-exists-03bY6eCb',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/commondir': '/root/.cache/typescript/4.7/node_modules/@types/.commondir-9ckKzKKq',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/component-emitter': '/root/.cache/typescript/4.7/node_modules/@types/.component-emitter-SIb0zDV5',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/compressible': '/root/.cache/typescript/4.7/node_modules/@types/.compressible-3IUtN8Zh',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/compression': '/root/.cache/typescript/4.7/node_modules/@types/.compression-Pg9Xon5O',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/concat-map': '/root/.cache/typescript/4.7/node_modules/@types/.concat-map-B1UW7xp3',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/convert-source-map': '/root/.cache/typescript/4.7/node_modules/@types/.convert-source-map-ykRQyPTl',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/create-react-class': '/root/.cache/typescript/4.7/node_modules/@types/.create-react-class-U6qvCB4H',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/css-to-react-native': '/root/.cache/typescript/4.7/node_modules/@types/.css-to-react-native-jOh0QezU',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/css-tree': '/root/.cache/typescript/4.7/node_modules/@types/.css-tree-09UVrEHi',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/decode-uri-component': '/root/.cache/typescript/4.7/node_modules/@types/.decode-uri-component-Ply3vmi5',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/deep-extend': '/root/.cache/typescript/4.7/node_modules/@types/.deep-extend-fiqe27sB',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/default-gateway': '/root/.cache/typescript/4.7/node_modules/@types/.default-gateway-MYPe6iOT',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/defaults': '/root/.cache/typescript/4.7/node_modules/@types/.defaults-4E5oEYj1',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/define-properties': '/root/.cache/typescript/4.7/node_modules/@types/.define-properties-BP7F7v5v',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/denodeify': '/root/.cache/typescript/4.7/node_modules/@types/.denodeify-qSEL4VLc',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/dir-glob': '/root/.cache/typescript/4.7/node_modules/@types/.dir-glob-hyGAa6xv',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/end-of-stream': '/root/.cache/typescript/4.7/node_modules/@types/.end-of-stream-gKW6rDhG',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/envinfo': '/root/.cache/typescript/4.7/node_modules/@types/.envinfo-vd4h1NbG',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/errorhandler': '/root/.cache/typescript/4.7/node_modules/@types/.errorhandler-K1Qp8MFB',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/esprima': '/root/.cache/typescript/4.7/node_modules/@types/.esprima-TzyqaXEJ',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/esutils': '/root/.cache/typescript/4.7/node_modules/@types/.esutils-otazVz9Q',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/fb-watchman': '/root/.cache/typescript/4.7/node_modules/@types/.fb-watchman-PxWBnKPz',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/fill-range': '/root/.cache/typescript/4.7/node_modules/@types/.fill-range-zs2CfqNf',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/fbjs': '/root/.cache/typescript/4.7/node_modules/@types/.fbjs-HYGcQ4a8',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/follow-redirects': '/root/.cache/typescript/4.7/node_modules/@types/.follow-redirects-P1JvqhML',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/find-cache-dir': '/root/.cache/typescript/4.7/node_modules/@types/.find-cache-dir-3nMV2oTr',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/fs-extra': '/root/.cache/typescript/4.7/node_modules/@types/.fs-extra-yDhEo3GZ',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/fontfaceobserver': '/root/.cache/typescript/4.7/node_modules/@types/.fontfaceobserver-YaaeSq3Y',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/get-intrinsic': '/root/.cache/typescript/4.7/node_modules/@types/.get-intrinsic-koRLJI7a',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/gensync': '/root/.cache/typescript/4.7/node_modules/@types/.gensync-3KeZvXbe',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/get-value': '/root/.cache/typescript/4.7/node_modules/@types/.get-value-9wxKue75',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/glob-parent': '/root/.cache/typescript/4.7/node_modules/@types/.glob-parent-y5OGR4uu',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/graceful-fs': '/root/.cache/typescript/4.7/node_modules/@types/.graceful-fs-nvJJ6ehJ',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/hosted-git-info': '/root/.cache/typescript/4.7/node_modules/@types/.hosted-git-info-CVGXGo8Z',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/hyphenate-style-name': '/root/.cache/typescript/4.7/node_modules/@types/.hyphenate-style-name-aYDkrboL',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/imurmurhash': '/root/.cache/typescript/4.7/node_modules/@types/.imurmurhash-uHTo9Vhm',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/ini': '/root/.cache/typescript/4.7/node_modules/@types/.ini-HZQ7slgV',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/inline-style-prefixer': '/root/.cache/typescript/4.7/node_modules/@types/.inline-style-prefixer-5HdQPgUw',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/ip': '/root/.cache/typescript/4.7/node_modules/@types/.ip-kLawO3A0',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/is-buffer': '/root/.cache/typescript/4.7/node_modules/@types/.is-buffer-e7EU3gzP',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/is-core-module': '/root/.cache/typescript/4.7/node_modules/@types/.is-core-module-NzO45vjh',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/is-data-descriptor': '/root/.cache/typescript/4.7/node_modules/@types/.is-data-descriptor-wdF5WiF4',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/is-glob': '/root/.cache/typescript/4.7/node_modules/@types/.is-glob-YmQ9ijou',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/is-number': '/root/.cache/typescript/4.7/node_modules/@types/.is-number-FPMoUUDb',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/is-valid-path': '/root/.cache/typescript/4.7/node_modules/@types/.is-valid-path-xhzn5jpd',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/is-windows': '/root/.cache/typescript/4.7/node_modules/@types/.is-windows-VnSpvpbq',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/isarray': '/root/.cache/typescript/4.7/node_modules/@types/.isarray-wwUdDNFr',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/isexe': '/root/.cache/typescript/4.7/node_modules/@types/.isexe-6I4UTNJg',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/js-yaml': '/root/.cache/typescript/4.7/node_modules/@types/.js-yaml-z92q1IYI',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/jscodeshift': '/root/.cache/typescript/4.7/node_modules/@types/.jscodeshift-eumHRuli',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/jsesc': '/root/.cache/typescript/4.7/node_modules/@types/.jsesc-P5LYUg1y',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/klaw': '/root/.cache/typescript/4.7/node_modules/@types/.klaw-yERyd5rC',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/lodash': '/root/.cache/typescript/4.7/node_modules/@types/.lodash-qllIkEsi',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/json-parse-better-errors': '/root/.cache/typescript/4.7/node_modules/@types/.json-parse-better-errors-neM0gbqZ',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/lodash.debounce': '/root/.cache/typescript/4.7/node_modules/@types/.lodash.debounce-0maMk2Lr',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/jsonfile': '/root/.cache/typescript/4.7/node_modules/@types/.jsonfile-krBO3Azi',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/kind-of': '/root/.cache/typescript/4.7/node_modules/@types/.kind-of-vEIbJBnE',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/lodash.throttle': '/root/.cache/typescript/4.7/node_modules/@types/.lodash.throttle-JAmS3h1l',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/md5': '/root/.cache/typescript/4.7/node_modules/@types/.md5-9T06OowX',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/lodash.isequal': '/root/.cache/typescript/4.7/node_modules/@types/.lodash.isequal-dBKD0v38',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/memory-cache': '/root/.cache/typescript/4.7/node_modules/@types/.memory-cache-Im9fXF8L',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/merge-stream': '/root/.cache/typescript/4.7/node_modules/@types/.merge-stream-6jrHDMH5',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/merge2': '/root/.cache/typescript/4.7/node_modules/@types/.merge2-GQWrWYws',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/metro': '/root/.cache/typescript/4.7/node_modules/@types/.metro-5YEq8akL',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/metro-babel-transformer': '/root/.cache/typescript/4.7/node_modules/@types/.metro-babel-transformer-YdfC6SvB',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/metro-cache': '/root/.cache/typescript/4.7/node_modules/@types/.metro-cache-oNgLvwlK',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/metro-config': '/root/.cache/typescript/4.7/node_modules/@types/.metro-config-IliiJz4f',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/metro-core': '/root/.cache/typescript/4.7/node_modules/@types/.metro-core-dMNhijtY',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/metro-resolver': '/root/.cache/typescript/4.7/node_modules/@types/.metro-resolver-DMn5zel7',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/metro-source-map': '/root/.cache/typescript/4.7/node_modules/@types/.metro-source-map-wteHuUPJ',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/metro-transform-worker': '/root/.cache/typescript/4.7/node_modules/@types/.metro-transform-worker-9LpQGdWe',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/micromatch': '/root/.cache/typescript/4.7/node_modules/@types/.micromatch-kqRRTNRC',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/minimist': '/root/.cache/typescript/4.7/node_modules/@types/.minimist-LDrML3kV',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/minipass': '/root/.cache/typescript/4.7/node_modules/@types/.minipass-PlmmFxxl',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/minizlib': '/root/.cache/typescript/4.7/node_modules/@types/.minizlib-j0A7PXh5',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/mkdirp': '/root/.cache/typescript/4.7/node_modules/@types/.mkdirp-b2CmaUgp',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/mz': '/root/.cache/typescript/4.7/node_modules/@types/.mz-CqMpu7Iq',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/node': '/root/.cache/typescript/4.7/node_modules/@types/.node-O0lv4AjH',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/node-forge': '/root/.cache/typescript/4.7/node_modules/@types/.node-forge-5rpLMazo',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/picomatch': '/root/.cache/typescript/4.7/node_modules/@types/.picomatch-jmRroTue',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/react': '/root/.cache/typescript/4.7/node_modules/@types/.react-zJWByTRo',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/react-native': '/root/.cache/typescript/4.7/node_modules/@types/.react-native-MbVVcAgI',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/react-lifecycles-compat': '/root/.cache/typescript/4.7/node_modules/@types/.react-lifecycles-compat-yYNzWhjX',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/react-native-vector-icons': '/root/.cache/typescript/4.7/node_modules/@types/.react-native-vector-icons-0y13RXSi',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/react-transition-group': '/root/.cache/typescript/4.7/node_modules/@types/.react-transition-group-OzNmAO15',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/strict-uri-encode': '/root/.cache/typescript/4.7/node_modules/@types/.strict-uri-encode-XzzCeKVL',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/esprima': '/root/.cache/typescript/4.7/node_modules/.esprima-LH9FHYq7',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/.bin/esparse': '/root/.cache/typescript/4.7/node_modules/.bin/.esparse-DRa2a6Xv',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/.bin/esvalidate': '/root/.cache/typescript/4.7/node_modules/.bin/.esvalidate-CUIv5SyJ',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/safe-buffer': '/root/.cache/typescript/4.7/node_modules/.safe-buffer-NRP8KcOv',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/to-fast-properties': '/root/.cache/typescript/4.7/node_modules/.to-fast-properties-hpHDe1f5',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/tslib': '/root/.cache/typescript/4.7/node_modules/.tslib-Dust1OHB',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@babel/helper-validator-identifier': '/root/.cache/typescript/4.7/node_modules/@babel/.helper-validator-identifier-HWw4NgCP',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/babel__core': '/root/.cache/typescript/4.7/node_modules/@types/.babel__core-ZhwP0Fsh',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/express': '/root/.cache/typescript/4.7/node_modules/@types/.express-MpFI332t',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/glob': '/root/.cache/typescript/4.7/node_modules/@types/.glob-duY580E0',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/jsdom': '/root/.cache/typescript/4.7/node_modules/@types/.jsdom-lhW2r5AM',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/minimatch': '/root/.cache/typescript/4.7/node_modules/@types/.minimatch-W0WniCJJ',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/mv': '/root/.cache/typescript/4.7/node_modules/@types/.mv-S030vLzR',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/ncp': '/root/.cache/typescript/4.7/node_modules/@types/.ncp-grGiAeDr',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/nested-error-stacks': '/root/.cache/typescript/4.7/node_modules/@types/.nested-error-stacks-gLIbruhD',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/nice-try': '/root/.cache/typescript/4.7/node_modules/@types/.nice-try-hrBblOCI',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/node-dir': '/root/.cache/typescript/4.7/node_modules/@types/.node-dir-5WMR8lwh',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/node-int64': '/root/.cache/typescript/4.7/node_modules/@types/.node-int64-IVqjs6fZ',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/normalize-path': '/root/.cache/typescript/4.7/node_modules/@types/.normalize-path-uzUTwTbP',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/npm-package-arg': '/root/.cache/typescript/4.7/node_modules/@types/.npm-package-arg-zJ8kKzxA',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/object-keys': '/root/.cache/typescript/4.7/node_modules/@types/.object-keys-IfIvFOqF',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/object.pick': '/root/.cache/typescript/4.7/node_modules/@types/.object.pick-StVLtecW',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/on-headers': '/root/.cache/typescript/4.7/node_modules/@types/.on-headers-F1jN2oGa',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/once': '/root/.cache/typescript/4.7/node_modules/@types/.once-J48iJCoA',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/os-homedir': '/root/.cache/typescript/4.7/node_modules/@types/.os-homedir-y2oWwsii',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/os-tmpdir': '/root/.cache/typescript/4.7/node_modules/@types/.os-tmpdir-G17kfwp2',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/osenv': '/root/.cache/typescript/4.7/node_modules/@types/.osenv-KGFPvOvJ',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/parse-json': '/root/.cache/typescript/4.7/node_modules/@types/.parse-json-CshFjaUu',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/parse5': '/root/.cache/typescript/4.7/node_modules/@types/.parse5-HAYESGPX',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/pascalcase': '/root/.cache/typescript/4.7/node_modules/@types/.pascalcase-GHnAW2Wr',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/path-browserify': '/root/.cache/typescript/4.7/node_modules/@types/.path-browserify-VepMJKPg',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/path-is-absolute': '/root/.cache/typescript/4.7/node_modules/@types/.path-is-absolute-Rgn3sf1E',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/path-parse': '/root/.cache/typescript/4.7/node_modules/@types/.path-parse-pcggPDhF',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/pify': '/root/.cache/typescript/4.7/node_modules/@types/.pify-Ufz4WnWu',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/plist': '/root/.cache/typescript/4.7/node_modules/@types/.plist-70bpNGWG',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/pngjs': '/root/.cache/typescript/4.7/node_modules/@types/.pngjs-03NR6mWy',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/progress': '/root/.cache/typescript/4.7/node_modules/@types/.progress-fnlI3VYu',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/promise-inflight': '/root/.cache/typescript/4.7/node_modules/@types/.promise-inflight-6xyhm9DV',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/prompts': '/root/.cache/typescript/4.7/node_modules/@types/.prompts-jHRiiFmq',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/pump': '/root/.cache/typescript/4.7/node_modules/@types/.pump-y3U4xVHr',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/qrcode-terminal': '/root/.cache/typescript/4.7/node_modules/@types/.qrcode-terminal-fqvOB7hB',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/querystringify': '/root/.cache/typescript/4.7/node_modules/@types/.querystringify-dGWncnzo',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/rc': '/root/.cache/typescript/4.7/node_modules/@types/.rc-ooS515hk',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/react-native__assets': '/root/.cache/typescript/4.7/node_modules/@types/.react-native__assets-kcTUlVOu',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/readable-stream': '/root/.cache/typescript/4.7/node_modules/@types/.readable-stream-0NZltYRz',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/regenerate': '/root/.cache/typescript/4.7/node_modules/@types/.regenerate-Be57IIwB',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/regenerator-runtime': '/root/.cache/typescript/4.7/node_modules/@types/.regenerator-runtime-DXQjDbOh',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/regex-not': '/root/.cache/typescript/4.7/node_modules/@types/.regex-not-GRHM9SHq',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/repeat-element': '/root/.cache/typescript/4.7/node_modules/@types/.repeat-element-dtcxWDEU',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/repeat-string': '/root/.cache/typescript/4.7/node_modules/@types/.repeat-string-4m7pxnGc',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/require-directory': '/root/.cache/typescript/4.7/node_modules/@types/.require-directory-VlzUNQwk',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/require-from-string': '/root/.cache/typescript/4.7/node_modules/@types/.require-from-string-cSa9isCk',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/requires-port': '/root/.cache/typescript/4.7/node_modules/@types/.requires-port-YksBN0xO',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/resolve': '/root/.cache/typescript/4.7/node_modules/@types/.resolve-7vcpRDVh',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/rimraf': '/root/.cache/typescript/4.7/node_modules/@types/.rimraf-ras5xKSU',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/run-parallel': '/root/.cache/typescript/4.7/node_modules/@types/.run-parallel-rgduAxwH',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/safe-json-stringify': '/root/.cache/typescript/4.7/node_modules/@types/.safe-json-stringify-volmDy93',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/safe-regex': '/root/.cache/typescript/4.7/node_modules/@types/.safe-regex-O5N7qwdL',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/sax': '/root/.cache/typescript/4.7/node_modules/@types/.sax-EbfkzX9L',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/set-value': '/root/.cache/typescript/4.7/node_modules/@types/.set-value-DeLwEf4p',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/setimmediate': '/root/.cache/typescript/4.7/node_modules/@types/.setimmediate-Y5s446Q7',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/shebang-command': '/root/.cache/typescript/4.7/node_modules/@types/.shebang-command-dwo6Arum',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/shell-quote': '/root/.cache/typescript/4.7/node_modules/@types/.shell-quote-tdFExfjI',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/signal-exit': '/root/.cache/typescript/4.7/node_modules/@types/.signal-exit-u6Ij1CPb',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/simple-swizzle': '/root/.cache/typescript/4.7/node_modules/@types/.simple-swizzle-48mEm7Vf',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/slice-ansi': '/root/.cache/typescript/4.7/node_modules/@types/.slice-ansi-UEZrtFVQ',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/source-map-support': '/root/.cache/typescript/4.7/node_modules/@types/.source-map-support-ndndKgQi',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/split': '/root/.cache/typescript/4.7/node_modules/@types/.split-gpCwU1zl',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/sprintf-js': '/root/.cache/typescript/4.7/node_modules/@types/.sprintf-js-2wtMpYj0',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/ssri': '/root/.cache/typescript/4.7/node_modules/@types/.ssri-DbWNspNM',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/stream-buffers': '/root/.cache/typescript/4.7/node_modules/@types/.stream-buffers-Fa8Td35j',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/supports-color': '/root/.cache/typescript/4.7/node_modules/@types/.supports-color-fu5Ir7mO',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/tar': '/root/.cache/typescript/4.7/node_modules/@types/.tar-Ycqcw4nn',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/temp': '/root/.cache/typescript/4.7/node_modules/@types/.temp-AFTEbzOe',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/text-table': '/root/.cache/typescript/4.7/node_modules/@types/.text-table-ZMrxtGNL',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/through': '/root/.cache/typescript/4.7/node_modules/@types/.through-jrsEx3bw',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/through2': '/root/.cache/typescript/4.7/node_modules/@types/.through2-MmREBMXO',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/tmp': '/root/.cache/typescript/4.7/node_modules/@types/.tmp-Bx5Xw9E0',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/tmpl': '/root/.cache/typescript/4.7/node_modules/@types/.tmpl-aFkrgyZj',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/to-regex': '/root/.cache/typescript/4.7/node_modules/@types/.to-regex-9ukfMfnc',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/to-regex-range': '/root/.cache/typescript/4.7/node_modules/@types/.to-regex-range-SlZt19Qu',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/tough-cookie': '/root/.cache/typescript/4.7/node_modules/@types/.tough-cookie-HHTzZjgd',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/traverse': '/root/.cache/typescript/4.7/node_modules/@types/.traverse-lvwCupD2',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/ua-parser-js': '/root/.cache/typescript/4.7/node_modules/@types/.ua-parser-js-1UXr8j3C',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/uglify-es': '/root/.cache/typescript/4.7/node_modules/@types/.uglify-es-YujDrTBV',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/universalify': '/root/.cache/typescript/4.7/node_modules/@types/.universalify-0q9oROQo',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/urix': '/root/.cache/typescript/4.7/node_modules/@types/.urix-Q1kdFEjS',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/url-join': '/root/.cache/typescript/4.7/node_modules/@types/.url-join-LI0oQPQG',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/url-parse': '/root/.cache/typescript/4.7/node_modules/@types/.url-parse-ocCcAwKr',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/util-deprecate': '/root/.cache/typescript/4.7/node_modules/@types/.util-deprecate-KklvPpXI',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/valid-url': '/root/.cache/typescript/4.7/node_modules/@types/.valid-url-zRkiFQl8',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/validate-npm-package-name': '/root/.cache/typescript/4.7/node_modules/@types/.validate-npm-package-name-hp3O64dj',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/warning': '/root/.cache/typescript/4.7/node_modules/@types/.warning-8jstWZUx',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/wcwidth': '/root/.cache/typescript/4.7/node_modules/@types/.wcwidth-77KtInss',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/webidl-conversions': '/root/.cache/typescript/4.7/node_modules/@types/.webidl-conversions-vIvvIMYE',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/whatwg-url': '/root/.cache/typescript/4.7/node_modules/@types/.whatwg-url-zOhJPqIR',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/which': '/root/.cache/typescript/4.7/node_modules/@types/.which-eQk61Itj',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/wrap-ansi': '/root/.cache/typescript/4.7/node_modules/@types/.wrap-ansi-umocelnz',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/write-file-atomic': '/root/.cache/typescript/4.7/node_modules/@types/.write-file-atomic-kcYITcfu',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/ws': '/root/.cache/typescript/4.7/node_modules/@types/.ws-MR9RHwk6',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/xml2js': '/root/.cache/typescript/4.7/node_modules/@types/.xml2js-wUOIqIOX',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/xmldoc': '/root/.cache/typescript/4.7/node_modules/@types/.xmldoc-jDcV3PQO',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/xtend': '/root/.cache/typescript/4.7/node_modules/@types/.xtend-Kfms1k7P',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/yallist': '/root/.cache/typescript/4.7/node_modules/@types/.yallist-OJ0UNxNt',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/yargs': '/root/.cache/typescript/4.7/node_modules/@types/.yargs-bWSoMGtx',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/yargs-parser': '/root/.cache/typescript/4.7/node_modules/@types/.yargs-parser-WxM3eKQm',
+285 silly reify   '/root/.cache/typescript/4.7/node_modules/@types/semver': '/root/.cache/typescript/4.7/node_modules/@types/.semver-LsTvaqS6'
+285 silly reify }
+286 timing reify:retireShallow Completed in 143ms
+287 timing reify:createSparse Completed in 4ms
+288 timing reify:loadBundles Completed in 0ms
+289 silly audit bulk request {
+289 silly audit   '@types/accepts': [ '1.3.5' ],
+289 silly audit   '@types/babel-generator': [ '6.25.5' ],
+289 silly audit   '@types/babel-template': [ '6.25.2' ],
+289 silly audit   '@types/babel-traverse': [ '6.25.7' ],
+289 silly audit   '@types/babel-types': [ '7.0.11' ],
+289 silly audit   '@types/babylon': [ '6.16.6' ],
+289 silly audit   '@types/body-parser': [ '1.19.2' ],
+289 silly audit   '@types/bytes': [ '3.1.1' ],
+289 silly audit   '@types/call-bind': [ '1.0.1' ],
+289 silly audit   '@types/content-disposition': [ '0.5.5' ],
+289 silly audit   '@types/content-type': [ '1.1.5' ],
+289 silly audit   '@types/cookie': [ '0.5.1' ],
+289 silly audit   '@types/cookie-signature': [ '1.0.4' ],
+289 silly audit   '@types/debug': [ '4.1.7' ],
+289 silly audit   '@types/depd': [ '1.1.32' ],
+289 silly audit   '@types/destroy': [ '1.0.0' ],
+289 silly audit   '@types/ee-first': [ '1.1.0' ],
+289 silly audit   '@types/encodeurl': [ '1.0.0' ],
+289 silly audit   '@types/escape-html': [ '1.0.2' ],
+289 silly audit   '@types/estree': [ '0.0.52' ],
+289 silly audit   '@types/etag': [ '1.8.1' ],
+289 silly audit   '@types/express-serve-static-core': [ '4.17.29' ],
+289 silly audit   '@types/finalhandler': [ '1.1.1' ],
+289 silly audit   '@types/forwarded': [ '0.1.0' ],
+289 silly audit   '@types/fresh': [ '0.5.0' ],
+289 silly audit   '@types/function-bind': [ '1.1.7' ],
+289 silly audit   '@types/get-intrinsic': [ '1.0.0' ],
+289 silly audit   '@types/has': [ '1.0.0' ],
+289 silly audit   '@types/has-symbols': [ '1.0.0' ],
+289 silly audit   '@types/http-errors': [ '1.8.2' ],
+289 silly audit   '@types/inherits': [ '0.0.30' ],
+289 silly audit   '@types/media-typer': [ '1.1.1' ],
+289 silly audit   '@types/merge-descriptors': [ '1.0.1' ],
+289 silly audit   '@types/methods': [ '1.1.1' ],
+289 silly audit   '@types/mime': [ '2.0.3', '1.3.2' ],
+289 silly audit   '@types/mime-db': [ '1.43.1' ],
+289 silly audit   '@types/mime-types': [ '2.1.1' ],
+289 silly audit   '@types/ms': [ '0.7.31' ],
+289 silly audit   '@types/negotiator': [ '0.6.1' ],
+289 silly audit   '@types/node': [ '18.0.3' ],
+289 silly audit   '@types/object-inspect': [ '1.8.1' ],
+289 silly audit   '@types/on-finished': [ '2.3.1' ],
+289 silly audit   '@types/parseurl': [ '1.3.1' ],
+289 silly audit   '@types/prop-types': [ '15.7.5' ],
+289 silly audit   '@types/proxy-addr': [ '2.0.0' ],
+289 silly audit   '@types/qs': [ '6.9.7' ],
+289 silly audit   '@types/range-parser': [ '1.2.4' ],
+289 silly audit   '@types/react': [ '18.0.15' ],
+289 silly audit   '@types/react-onclickoutside': [ '6.7.4' ],
+289 silly audit   '@types/safer-buffer': [ '2.1.0' ],
+289 silly audit   '@types/scheduler': [ '0.16.2' ],
+289 silly audit   '@types/send': [ '0.17.1' ],
+289 silly audit   '@types/serve-static': [ '1.13.10' ],
+289 silly audit   '@types/statuses': [ '2.0.0' ],
+289 silly audit   '@types/type-is': [ '1.6.3' ],
+289 silly audit   '@types/uglify-js': [ '3.16.0' ],
+289 silly audit   '@types/utils-merge': [ '0.0.28' ],
+289 silly audit   '@types/vary': [ '1.1.0' ],
+289 silly audit   csstype: [ '3.1.0' ],
+289 silly audit   'source-map': [ '0.6.1' ],
+289 silly audit   '@types/connect': [ '3.4.35' ]
+289 silly audit }
+290 timing reifyNode:node_modules/@types/get-intrinsic Completed in 110ms
+291 timing reifyNode:node_modules/@types/react Completed in 118ms
+292 timing reifyNode:node_modules/csstype Completed in 123ms
+293 timing reifyNode:node_modules/@types/node Completed in 131ms
+294 timing reify:unpack Completed in 133ms
+295 timing reify:unretire Completed in 0ms
+296 timing build:queue Completed in 1ms
+297 timing build:deps Completed in 1ms
+298 timing build Completed in 1ms
+299 timing reify:build Completed in 1ms
+300 timing reify:trash Completed in 105ms
+301 timing reify:save Completed in 77ms
+302 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 359ms
+303 timing auditReport:getReport Completed in 360ms
+304 silly audit report {}
+305 timing auditReport:init Completed in 0ms
+306 timing reify:audit Completed in 362ms
+307 timing reify Completed in 1137ms
+308 silly REMOVE node_modules/@types/semver
+309 silly REMOVE node_modules/@types/yargs-parser
+310 silly REMOVE node_modules/@types/yargs
+311 silly REMOVE node_modules/@types/yallist
+312 silly REMOVE node_modules/@types/xtend
+313 silly REMOVE node_modules/@types/xmldoc
+314 silly REMOVE node_modules/@types/xml2js
+315 silly REMOVE node_modules/@types/ws
+316 silly REMOVE node_modules/@types/write-file-atomic
+317 silly REMOVE node_modules/@types/wrap-ansi
+318 silly REMOVE node_modules/@types/which
+319 silly REMOVE node_modules/@types/whatwg-url
+320 silly REMOVE node_modules/@types/webidl-conversions
+321 silly REMOVE node_modules/@types/wcwidth
+322 silly REMOVE node_modules/@types/warning
+323 silly REMOVE node_modules/@types/validate-npm-package-name
+324 silly REMOVE node_modules/@types/valid-url
+325 silly REMOVE node_modules/@types/util-deprecate
+326 silly REMOVE node_modules/@types/url-parse
+327 silly REMOVE node_modules/@types/url-join
+328 silly REMOVE node_modules/@types/urix
+329 silly REMOVE node_modules/@types/universalify
+330 silly REMOVE node_modules/@types/uglify-es
+331 silly REMOVE node_modules/@types/ua-parser-js
+332 silly REMOVE node_modules/@types/traverse
+333 silly REMOVE node_modules/@types/tough-cookie
+334 silly REMOVE node_modules/@types/to-regex-range
+335 silly REMOVE node_modules/@types/to-regex
+336 silly REMOVE node_modules/@types/tmpl
+337 silly REMOVE node_modules/@types/tmp
+338 silly REMOVE node_modules/@types/through2
+339 silly REMOVE node_modules/@types/through
+340 silly REMOVE node_modules/@types/text-table
+341 silly REMOVE node_modules/@types/temp
+342 silly REMOVE node_modules/@types/tar
+343 silly REMOVE node_modules/@types/supports-color
+344 silly REMOVE node_modules/@types/stream-buffers
+345 silly REMOVE node_modules/@types/ssri
+346 silly REMOVE node_modules/@types/sprintf-js
+347 silly REMOVE node_modules/@types/split
+348 silly REMOVE node_modules/@types/source-map-support
+349 silly REMOVE node_modules/@types/slice-ansi
+350 silly REMOVE node_modules/@types/simple-swizzle
+351 silly REMOVE node_modules/@types/signal-exit
+352 silly REMOVE node_modules/@types/shell-quote
+353 silly REMOVE node_modules/@types/shebang-command
+354 silly REMOVE node_modules/@types/setimmediate
+355 silly REMOVE node_modules/@types/set-value
+356 silly REMOVE node_modules/@types/sax
+357 silly REMOVE node_modules/@types/safe-regex
+358 silly REMOVE node_modules/@types/safe-json-stringify
+359 silly REMOVE node_modules/@types/run-parallel
+360 silly REMOVE node_modules/@types/rimraf
+361 silly REMOVE node_modules/@types/resolve
+362 silly REMOVE node_modules/@types/requires-port
+363 silly REMOVE node_modules/@types/require-from-string
+364 silly REMOVE node_modules/@types/require-directory
+365 silly REMOVE node_modules/@types/repeat-string
+366 silly REMOVE node_modules/@types/repeat-element
+367 silly REMOVE node_modules/@types/regex-not
+368 silly REMOVE node_modules/@types/regenerator-runtime
+369 silly REMOVE node_modules/@types/regenerate
+370 silly REMOVE node_modules/@types/readable-stream
+371 silly REMOVE node_modules/@types/react-native__assets
+372 silly REMOVE node_modules/@types/rc
+373 silly REMOVE node_modules/@types/querystringify
+374 silly REMOVE node_modules/@types/qrcode-terminal
+375 silly REMOVE node_modules/@types/pump
+376 silly REMOVE node_modules/@types/prompts
+377 silly REMOVE node_modules/@types/promise-inflight
+378 silly REMOVE node_modules/@types/progress
+379 silly REMOVE node_modules/@types/pngjs
+380 silly REMOVE node_modules/@types/plist
+381 silly REMOVE node_modules/@types/pify
+382 silly REMOVE node_modules/@types/path-parse
+383 silly REMOVE node_modules/@types/path-is-absolute
+384 silly REMOVE node_modules/@types/path-browserify
+385 silly REMOVE node_modules/@types/pascalcase
+386 silly REMOVE node_modules/@types/parse5
+387 silly REMOVE node_modules/@types/parse-json
+388 silly REMOVE node_modules/@types/osenv
+389 silly REMOVE node_modules/@types/os-tmpdir
+390 silly REMOVE node_modules/@types/os-homedir
+391 silly REMOVE node_modules/@types/once
+392 silly REMOVE node_modules/@types/on-headers
+393 silly REMOVE node_modules/@types/object.pick
+394 silly REMOVE node_modules/@types/object-keys
+395 silly REMOVE node_modules/@types/npm-package-arg
+396 silly REMOVE node_modules/@types/normalize-path
+397 silly REMOVE node_modules/@types/node-int64
+398 silly REMOVE node_modules/@types/node-dir
+399 silly REMOVE node_modules/@types/nice-try
+400 silly REMOVE node_modules/@types/nested-error-stacks
+401 silly REMOVE node_modules/@types/ncp
+402 silly REMOVE node_modules/@types/mv
+403 silly REMOVE node_modules/@types/minimatch
+404 silly REMOVE node_modules/@types/jsdom
+405 silly REMOVE node_modules/@types/glob
+406 silly REMOVE node_modules/@types/express
+407 silly REMOVE node_modules/@types/babel__core
+408 silly REMOVE node_modules/@babel/helper-validator-identifier
+409 silly REMOVE node_modules/tslib
+410 silly REMOVE node_modules/to-fast-properties
+411 silly REMOVE node_modules/safe-buffer
+412 silly REMOVE node_modules/esprima
+413 silly REMOVE node_modules/@types/strict-uri-encode
+414 silly REMOVE node_modules/@types/react-transition-group
+415 silly REMOVE node_modules/@types/react-native-vector-icons
+416 silly REMOVE node_modules/@types/react-lifecycles-compat
+417 silly REMOVE node_modules/@types/react-native
+418 silly CHANGE node_modules/@types/react
+419 silly REMOVE node_modules/@types/picomatch
+420 silly REMOVE node_modules/@types/node-forge
+421 silly CHANGE node_modules/@types/node
+422 silly REMOVE node_modules/@types/mz
+423 silly REMOVE node_modules/@types/mkdirp
+424 silly REMOVE node_modules/@types/minizlib
+425 silly REMOVE node_modules/@types/minipass
+426 silly REMOVE node_modules/@types/minimist
+427 silly REMOVE node_modules/@types/micromatch
+428 silly REMOVE node_modules/@types/metro-transform-worker
+429 silly REMOVE node_modules/@types/metro-source-map
+430 silly REMOVE node_modules/@types/metro-resolver
+431 silly REMOVE node_modules/@types/metro-core
+432 silly REMOVE node_modules/@types/metro-config
+433 silly REMOVE node_modules/@types/metro-cache
+434 silly REMOVE node_modules/@types/metro-babel-transformer
+435 silly REMOVE node_modules/@types/metro
+436 silly REMOVE node_modules/@types/merge2
+437 silly REMOVE node_modules/@types/merge-stream
+438 silly REMOVE node_modules/@types/memory-cache
+439 silly REMOVE node_modules/@types/lodash.isequal
+440 silly REMOVE node_modules/@types/md5
+441 silly REMOVE node_modules/@types/lodash.throttle
+442 silly REMOVE node_modules/@types/kind-of
+443 silly REMOVE node_modules/@types/jsonfile
+444 silly REMOVE node_modules/@types/lodash.debounce
+445 silly REMOVE node_modules/@types/json-parse-better-errors
+446 silly REMOVE node_modules/@types/lodash
+447 silly REMOVE node_modules/@types/klaw
+448 silly REMOVE node_modules/@types/jsesc
+449 silly REMOVE node_modules/@types/jscodeshift
+450 silly REMOVE node_modules/@types/js-yaml
+451 silly REMOVE node_modules/@types/isexe
+452 silly REMOVE node_modules/@types/isarray
+453 silly REMOVE node_modules/@types/is-windows
+454 silly REMOVE node_modules/@types/is-valid-path
+455 silly REMOVE node_modules/@types/is-number
+456 silly REMOVE node_modules/@types/is-glob
+457 silly REMOVE node_modules/@types/is-data-descriptor
+458 silly REMOVE node_modules/@types/is-core-module
+459 silly REMOVE node_modules/@types/is-buffer
+460 silly REMOVE node_modules/@types/ip
+461 silly REMOVE node_modules/@types/inline-style-prefixer
+462 silly REMOVE node_modules/@types/ini
+463 silly REMOVE node_modules/@types/imurmurhash
+464 silly REMOVE node_modules/@types/hyphenate-style-name
+465 silly REMOVE node_modules/@types/hosted-git-info
+466 silly REMOVE node_modules/@types/graceful-fs
+467 silly REMOVE node_modules/@types/glob-parent
+468 silly REMOVE node_modules/@types/get-value
+469 silly REMOVE node_modules/@types/gensync
+470 silly CHANGE node_modules/@types/get-intrinsic
+471 silly REMOVE node_modules/@types/fontfaceobserver
+472 silly REMOVE node_modules/@types/fs-extra
+473 silly REMOVE node_modules/@types/find-cache-dir
+474 silly REMOVE node_modules/@types/follow-redirects
+475 silly REMOVE node_modules/@types/fbjs
+476 silly REMOVE node_modules/@types/fill-range
+477 silly REMOVE node_modules/@types/fb-watchman
+478 silly REMOVE node_modules/@types/esutils
+479 silly REMOVE node_modules/@types/esprima
+480 silly REMOVE node_modules/@types/errorhandler
+481 silly REMOVE node_modules/@types/envinfo
+482 silly REMOVE node_modules/@types/end-of-stream
+483 silly REMOVE node_modules/@types/dir-glob
+484 silly REMOVE node_modules/@types/denodeify
+485 silly REMOVE node_modules/@types/define-properties
+486 silly REMOVE node_modules/@types/defaults
+487 silly REMOVE node_modules/@types/default-gateway
+488 silly REMOVE node_modules/@types/deep-extend
+489 silly REMOVE node_modules/@types/decode-uri-component
+490 silly REMOVE node_modules/@types/css-tree
+491 silly REMOVE node_modules/@types/css-to-react-native
+492 silly REMOVE node_modules/@types/create-react-class
+493 silly REMOVE node_modules/@types/convert-source-map
+494 silly REMOVE node_modules/@types/concat-map
+495 silly REMOVE node_modules/@types/compression
+496 silly REMOVE node_modules/@types/compressible
+497 silly REMOVE node_modules/@types/component-emitter
+498 silly REMOVE node_modules/@types/commondir
+499 silly REMOVE node_modules/@types/command-exists
+500 silly REMOVE node_modules/@types/combined-stream
+501 silly REMOVE node_modules/@types/color-string
+502 silly REMOVE node_modules/@types/color-name
+503 silly REMOVE node_modules/@types/color-convert
+504 silly REMOVE node_modules/@types/clone-deep
+505 silly REMOVE node_modules/@types/clone
+506 silly REMOVE node_modules/@types/cli-spinners
+507 silly REMOVE node_modules/@types/chownr
+508 silly REMOVE node_modules/@types/caniuse-lite
+509 silly REMOVE node_modules/@types/cacache
+510 silly REMOVE node_modules/@types/buffer-from
+511 silly REMOVE node_modules/@types/bser
+512 silly REMOVE node_modules/@types/braces
+513 silly REMOVE node_modules/@types/brace-expansion
+514 silly REMOVE node_modules/@types/boolbase
+515 silly REMOVE node_modules/@types/blueimp-md5
+516 silly REMOVE node_modules/@types/bl
+517 silly REMOVE node_modules/@types/balanced-match
+518 silly REMOVE node_modules/@types/babel__template
+519 silly REMOVE node_modules/@types/babel__traverse
+520 silly REMOVE node_modules/@types/babel__register
+521 silly REMOVE node_modules/@types/babel__preset-env
+522 silly REMOVE node_modules/@types/babel__helper-validator-identifier
+523 silly REMOVE node_modules/@types/babel__plugin-transform-runtime
+524 silly REMOVE node_modules/@types/babel__helper-plugin-utils
+525 silly REMOVE node_modules/@types/babel__generator
+526 silly REMOVE node_modules/@types/babel-plugin-syntax-jsx
+527 silly REMOVE node_modules/@types/babel__code-frame
+528 silly REMOVE node_modules/@types/babel-core
+529 silly REMOVE node_modules/@types/array-unique
+530 silly REMOVE node_modules/@types/atob
+531 silly REMOVE node_modules/@types/async
+532 silly REMOVE node_modules/@types/asap
+533 silly REMOVE node_modules/@types/arr-union
+534 silly REMOVE node_modules/@types/array-find-index
+535 silly REMOVE node_modules/@types/argparse
+536 silly REMOVE node_modules/@types/arr-diff
+537 silly REMOVE node_modules/@babel/types
+538 silly REMOVE node_modules/@babel/parser
+539 silly REMOVE node_modules/xmlbuilder
+540 silly REMOVE node_modules/recast
+541 silly CHANGE node_modules/csstype
+542 silly REMOVE node_modules/ast-types
+543 timing command:install Completed in 1155ms
+544 verbose exit 0
+545 timing npm Completed in 1475ms
+546 info ok
