@@ -1,4 +1,4 @@
-# <img src="https://user-images.githubusercontent.com/68576681/177258571-64e4855d-bdca-4335-b221-e23d54708cbe.jpg" width="30" height="30"> 몰입스타그램
+# <img src="https://user-images.githubusercontent.com/68576681/177258571-64e4855d-bdca-4335-b221-e23d54708cbe.jpg" width="30" height="30"> Koob
 
 > 2분반 2주차(2022.07.06~07.12) By 김아나스타시야, 정재모
 
