@@ -103,17 +103,10 @@
 - Post 페이지에서 팔고 싶은 책을 장터에 올릴 수 있습니다.
 - 'See my posts' 터치 시 자기 게시물을 확인할 수 있습니다
 
-### Technology Used
-
-- Firebase를 통해 사용자들이 보낸 메세지들을 서버에 모두 저장합니다 //EDIT HERE
-
 ## 4. Tab4 - My Posts
 
 ![Image from iOS (5)](https://user-images.githubusercontent.com/83392095/178481105-ea45ac73-05ac-498a-9695-886eebbc0414.jpg)
 
-### Technology Used
-
-- Firebase를 통해 사용자들이 보낸 메세지들을 서버에 모두 저장합니다
 
 ## 5. Future Work(언젠가)
 
